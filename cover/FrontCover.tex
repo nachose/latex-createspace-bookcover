@@ -1,6 +1,11 @@
 \documentclass[11pt,twoside,openany,svgnames,x11names]{book}
 \input{../BookParameters.tex}
 
+\newlength{\FrontWidth}\setlength{\FrontWidth}{\PaperW}
+\addtolength{\FrontWidth}{0.125in}
+\newlength{\FrontHeight}\setlength{\FrontHeight}{\PaperH}
+\addtolength{\FrontHeight}{0.25in}
+
 \usepackage{wallpaper}
 \usepackage{changepage}
 \usepackage[explicit,clearempty]{titlesec}
@@ -48,7 +53,15 @@
 
 %% Cover illustration
 %\ThisLLCornerWallPaper{1}{coverArt}
-\CenterWallPaper{1}{../images/CoverArt.jpg}
+% \CenterWallPaper{1.1}{../images/CoverArt.jpg}
+\begin{tikzpicture}[remember picture, overlay]
+  \node[anchor=east] at (current page.east) {%
+    \includegraphics[
+      width=\FrontWidth,
+      height=\FrontHeight
+    ]{../images/CoverArt.jpg}%
+  };
+\end{tikzpicture}
 
 
 %% Bar across the top
