@@ -18,18 +18,18 @@
 % -- Ingram: page count MUST be divisible by 2.
 % -- Blurb : page count MUST be divisible by 6.
 % Add blank pages as needed in final PDF generations!
-\pgfmathsetmacro\TotalPageCount{302}% Must be manually entered
-\pgfmathsetmacro\PaperWidthPt{6.14in}%
-\pgfmathsetmacro\PaperHeightPt{9.21in}%
+\pgfmathsetmacro\TotalPageCount{728}% Must be manually entered
+\pgfmathsetmacro\PaperWidthPt{6.69in}%
+\pgfmathsetmacro\PaperHeightPt{9.61in}%
 
-\newlength{\PaperW}\setlength{\PaperW}{6.14in}
-\newlength{\PaperH}\setlength{\PaperH}{9.21in}
+\newlength{\PaperW}\setlength{\PaperW}{6.69in}
+\newlength{\PaperH}\setlength{\PaperH}{9.61in}
 \newlength{\HorBleed}\setlength{\HorBleed}{0.125in}
 \newlength{\VerBleed}\setlength{\VerBleed}{0.125in}
 
 %\def\ShowCoverStatistics{}% Enable to show some numbers on back cover.
 
-\def\TheMainTitle{Enterprise Service Bus}
+\def\TheMainTitle{Apache Commons}
 \def\TheSubTitle{}
 \def\TheSubTitleA{}
 \def\TheSubTitleB{}
@@ -118,11 +118,16 @@
 \def\TheCopyrightKeywords{1. History; 2. Nonsense; 3. Made up stuff}
 
 \def\ShortDescription{% Normally restricted to 300 t0 350 characters depending on publisher.
-\textsf{\textbf{World War II and the Manhattan Project} -- a group of Hungarian scientists that included émigré physicist Leó Szilárd attempted to alert Washington.}}
+\textsf{\textbf{Apache Commons} -- a group of Hungarian scientists that included émigré physicist Leó Szilárd attempted to alert Washington.}}
 
 \def\BackDescription{% Typically max 2000-4000 characters
-\textsf{\textbf{Enterprise Service Bus} -- In today’s fast-paced digital landscape, seamless communication between disparate systems isn't just a luxury—it's a necessity. The Enterprise Service Bus (ESB) is the backbone of a connected enterprise, enabling robust, scalable, and secure communication between applications and services.
-This book, "Enterprise Service Bus," provides a comprehensive and practical guide to designing, implementing, and managing an ESB. Whether you are an architect looking to modernize your integration strategy, a developer tasked with building microservices, or an IT leader aiming to streamline business processes, this book will equip you with the knowledge and tools to succeed.}}
+\textsf{\textbf{Apache Commons} -- Apache Commons is a practical guide to one of the most essential toolkits in the Java ecosystem. This book explores the wide collection of reusable libraries offered by the Apache Commons project, showing how they can simplify development, reduce boilerplate code, and make your applications more reliable.}
+
+\textsf{Each chapter focuses on a specific Commons component — from Commons Lang and its powerful utilities for strings, numbers, and dates, to Commons IO for streamlined file handling, Commons Collections for advanced data structures, Commons CLI for command-line parsing, and beyond. Through clear explanations and examples, you’ll learn not only what each library does, but also how and when to use it effectively in real-world projects.}
+
+\textsf{Whether you are a seasoned Java developer looking to save time, or a newcomer eager to leverage proven and battle-tested libraries, this book provides a comprehensive and accessible reference to the entire Apache Commons suite}
+}
+
 
 \def\AuthorBio{% 
 \textsf{\textbf{Jose Ignacio Seco Sanz}}}
