@@ -19,18 +19,18 @@
 % -- Ingram: page count MUST be divisible by 2.
 % -- Blurb : page count MUST be divisible by 6.
 % Add blank pages as needed in final PDF generations!
-\pgfmathsetmacro\TotalPageCount{530}% Must be manually entered
-\pgfmathsetmacro\PaperWidthPt{6.14in}%
-\pgfmathsetmacro\PaperHeightPt{9.21in}%
+\pgfmathsetmacro\TotalPageCount{536}% Must be manually entered
+\pgfmathsetmacro\PaperWidthPt{7.50in}%
+\pgfmathsetmacro\PaperHeightPt{9.25in}%
 
-\newlength{\PaperW}\setlength{\PaperW}{6.14in}
-\newlength{\PaperH}\setlength{\PaperH}{9.21in}
+\newlength{\PaperW}\setlength{\PaperW}{7.50in}
+\newlength{\PaperH}\setlength{\PaperH}{9.25in}
 \newlength{\HorBleed}\setlength{\HorBleed}{0.125in}
 \newlength{\VerBleed}\setlength{\VerBleed}{0.125in}
 
 %\def\ShowCoverStatistics{}% Enable to show some numbers on back cover.
 
-\def\TheMainTitle{Complete C++ Low Latency}
+\def\TheMainTitle{Low Latency Java}
 \def\TheSubTitle{}
 \def\TheSubTitleA{}
 \def\TheSubTitleB{}
@@ -122,15 +122,12 @@
 \textsf{\textbf{World War II and the Manhattan Project} -- a group of Hungarian scientists that included émigré physicist Leó Szilárd attempted to alert Washington.}}
 
 \def\BackDescription{% Typically max 2000-4000 characters
-\textsf{\textbf{{Complete C++ Low Latency} -- Master the techniques that separate ordinary C++ code from truly high-performance systems.}}
+\textsf{\textbf{{Low Latency Java} --  Unlock the full potential of Java for high-performance, low-latency applications with Low Latency Java. This comprehensive guide equips Java developers, performance engineers, and fintech professionals with cutting-edge techniques to achieve microsecond-level responsiveness in demanding systems like high-frequency trading, gaming, and real-time data processing.}}
 
-\textsf{\textbf{Low-latency programming is about far more than writing fast code. It is about understanding how modern CPUs, memory hierarchies, operating systems, compilers, and concurrency interact to determine the performance of your applications. Whether you're building trading systems, game engines, real-time analytics, networking software, or any application where every microsecond matters, these principles are essential.}}
+\textsf{\textbf{Dive into practical strategies for optimizing garbage collection, mastering lock-free concurrency with frameworks like LMAX Disruptor, and streamlining network I/O using asynchronous programming and kernel bypass. Packed with code examples, case studies, and benchmarks, this book reveals how to slash latency, boost throughput, and leverage tools like Java Flight Recorder and GraalVM. From object pooling to bit-wise serialization, learn battle-tested methods to make Java perform at its peak.}}
 
-\textsf{\textbf{Complete C++ Low Latency is a practical, in-depth guide to designing and implementing software that minimizes latency while maximizing throughput and predictability. Instead of relying on myths and premature optimizations, you'll learn the engineering principles used to build modern high-performance C++ applications.}}
+\textsf{\textbf{Whether you're building mission-critical applications or pushing Java's limits, Low Latency Java is your definitive resource for crafting fast, scalable, and reliable systems. Start optimizing today!}}
 
-\textsf{\textbf{The book covers both fundamental concepts and advanced optimization techniques, always explaining why an optimization works, when it should be applied, and when it should be avoided.}}
-
-\textsf{\textbf{Rather than presenting isolated tricks, Complete C++ Low Latency develops a systematic understanding of performance engineering, enabling you to make informed design decisions in your own projects.}}
 }
 
 \def\AuthorBio{% 
