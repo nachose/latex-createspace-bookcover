@@ -19,18 +19,18 @@
 % -- Ingram: page count MUST be divisible by 2.
 % -- Blurb : page count MUST be divisible by 6.
 % Add blank pages as needed in final PDF generations!
-\pgfmathsetmacro\TotalPageCount{794}% Must be manually entered
-\pgfmathsetmacro\PaperWidthPt{6.69in}%
-\pgfmathsetmacro\PaperHeightPt{9.61in}%
+\pgfmathsetmacro\TotalPageCount{684}% Must be manually entered
+\pgfmathsetmacro\PaperWidthPt{6.14in}%
+\pgfmathsetmacro\PaperHeightPt{9.21in}%
 
-\newlength{\PaperW}\setlength{\PaperW}{6.69in}
-\newlength{\PaperH}\setlength{\PaperH}{9.61in}
+\newlength{\PaperW}\setlength{\PaperW}{6.14in}
+\newlength{\PaperH}\setlength{\PaperH}{9.21in}
 \newlength{\HorBleed}\setlength{\HorBleed}{0.125in}
 \newlength{\VerBleed}\setlength{\VerBleed}{0.125in}
 
 %\def\ShowCoverStatistics{}% Enable to show some numbers on back cover.
 
-\def\TheMainTitle{Apache Maven}
+\def\TheMainTitle{Low Latency Cloud}
 \def\TheSubTitle{}
 \def\TheSubTitleA{}
 \def\TheSubTitleB{}
@@ -41,7 +41,7 @@
 \def\TheAuthorB{Schmeggles}
 \def\TheAuthorLNF{Schmeggles, Wilson, J.}
 
-\def\TheCopyrightYear{2025}
+\def\TheCopyrightYear{2026}
 \def\TheEdition{First Edition}
 
 \def\ThePublisherName{Your Press}% Just the short form name
@@ -122,13 +122,14 @@
 \textsf{\textbf{World War II and the Manhattan Project} -- a group of Hungarian scientists that included émigré physicist Leó Szilárd attempted to alert Washington.}}
 
 \def\BackDescription{% Typically max 2000-4000 characters
-\textsf{\textbf{Apache Maven} -- Master the build tool that powers modern Java development.}
+\textsf{\textbf{Low Latency Cloud} -- How do you build cloud-native systems without sacrificing performance?}
 
-\textsf{Whether you're new to Maven or looking to deepen your understanding, Apache Maven provides a practical, comprehensive guide to one of the most important tools in the Java ecosystem.}
+\textsf{Modern cloud platforms offer elasticity, resilience, and operational simplicity—but they also introduce latency. Every network hop, every serialization step, every managed service, and every layer of abstraction adds overhead. For many applications this is acceptable. For others, it is the difference between success and failure.}
 
-\textsf{Rather than simply teaching commands to memorize, this book explains why Maven works the way it does. You'll learn how Maven manages dependencies, structures projects, automates builds, runs tests, packages applications, and integrates into professional development workflows.}
+\textsf{Low Latency Cloud explores how to design cloud applications that remain fast, predictable, and scalable while taking full advantage of modern cloud infrastructure.}
 
-\textsf{Starting from the fundamentals, the book gradually progresses to more advanced topics, helping you build a solid mental model that will serve you in real-world projects.}
+\textsf{Rather than promoting a single technology stack or vendor, this book focuses on the engineering principles behind low-latency distributed systems. You'll learn how latency is introduced, how to measure it correctly, and—most importantly—how to eliminate unnecessary delays throughout your architecture.}
+
 }
 
 \def\AuthorBio{% 
